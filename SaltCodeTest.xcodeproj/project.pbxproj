@@ -9,13 +9,23 @@
 /* Begin PBXBuildFile section */
 		7CE7FDD52920AB3500733F51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7FDD42920AB3500733F51 /* AppDelegate.swift */; };
 		7CE7FDD72920AB3500733F51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7FDD62920AB3500733F51 /* SceneDelegate.swift */; };
-		7CE7FDD92920AB3500733F51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7FDD82920AB3500733F51 /* ViewController.swift */; };
-		7CE7FDDC2920AB3500733F51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE7FDDA2920AB3500733F51 /* Main.storyboard */; };
+		7CE7FDD92920AB3500733F51 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7FDD82920AB3500733F51 /* HomeViewController.swift */; };
 		7CE7FDDE2920AB3700733F51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE7FDDD2920AB3700733F51 /* Assets.xcassets */; };
 		7CE7FDE12920AB3700733F51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE7FDDF2920AB3700733F51 /* LaunchScreen.storyboard */; };
 		7CE7FDEC2920AB3700733F51 /* SaltCodeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7FDEB2920AB3700733F51 /* SaltCodeTestTests.swift */; };
 		7CE7FDF62920AB3700733F51 /* SaltCodeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7FDF52920AB3700733F51 /* SaltCodeTestUITests.swift */; };
 		7CE7FDF82920AB3700733F51 /* SaltCodeTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7FDF72920AB3700733F51 /* SaltCodeTestUITestsLaunchTests.swift */; };
+		7CE7FE052920ABA300733F51 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7FE042920ABA300733F51 /* LoginViewController.swift */; };
+		7CE7FE0E2920AC0F00733F51 /* ExtensionFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7FE0D2920AC0F00733F51 /* ExtensionFile.swift */; };
+		7CE7FE102920AC1F00733F51 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7FE0F2920AC1F00733F51 /* K.swift */; };
+		7CE7FE122920AC5000733F51 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7FE112920AC5000733F51 /* LoginResponse.swift */; };
+		7CE7FE142920AC5D00733F51 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7FE132920AC5D00733F51 /* User.swift */; };
+		7CE7FE172920AC8900733F51 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7FE162920AC8900733F51 /* NetworkService.swift */; };
+		7CE7FE192920ACD700733F51 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7FE182920ACD700733F51 /* NetworkManager.swift */; };
+		7CE7FE1B2920B26A00733F51 /* ReqresEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7FE1A2920B26A00733F51 /* ReqresEndpoint.swift */; };
+		7CE7FE1D2920BC0500733F51 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7FE1C2920BC0500733F51 /* Box.swift */; };
+		7CE7FE1F2920BD2D00733F51 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7FE1E2920BD2D00733F51 /* LoginViewModel.swift */; };
+		7CE7FE2629215DAE00733F51 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7FE2529215DAE00733F51 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +49,7 @@
 		7CE7FDD12920AB3500733F51 /* SaltCodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaltCodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE7FDD42920AB3500733F51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CE7FDD62920AB3500733F51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7CE7FDD82920AB3500733F51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7CE7FDDB2920AB3500733F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CE7FDD82920AB3500733F51 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7CE7FDDD2920AB3700733F51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CE7FDE02920AB3700733F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CE7FDE22920AB3700733F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +58,17 @@
 		7CE7FDF12920AB3700733F51 /* SaltCodeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaltCodeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE7FDF52920AB3700733F51 /* SaltCodeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaltCodeTestUITests.swift; sourceTree = "<group>"; };
 		7CE7FDF72920AB3700733F51 /* SaltCodeTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaltCodeTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7CE7FE042920ABA300733F51 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7CE7FE0D2920AC0F00733F51 /* ExtensionFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFile.swift; sourceTree = "<group>"; };
+		7CE7FE0F2920AC1F00733F51 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		7CE7FE112920AC5000733F51 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		7CE7FE132920AC5D00733F51 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7CE7FE162920AC8900733F51 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		7CE7FE182920ACD700733F51 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7CE7FE1A2920B26A00733F51 /* ReqresEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReqresEndpoint.swift; sourceTree = "<group>"; };
+		7CE7FE1C2920BC0500733F51 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		7CE7FE1E2920BD2D00733F51 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		7CE7FE2529215DAE00733F51 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +119,12 @@
 		7CE7FDD32920AB3500733F51 /* SaltCodeTest */ = {
 			isa = PBXGroup;
 			children = (
-				7CE7FDD42920AB3500733F51 /* AppDelegate.swift */,
-				7CE7FDD62920AB3500733F51 /* SceneDelegate.swift */,
-				7CE7FDD82920AB3500733F51 /* ViewController.swift */,
-				7CE7FDDA2920AB3500733F51 /* Main.storyboard */,
-				7CE7FDDD2920AB3700733F51 /* Assets.xcassets */,
-				7CE7FDDF2920AB3700733F51 /* LaunchScreen.storyboard */,
+				7CE7FE152920AC7900733F51 /* Vendor */,
+				7CE7FE0C2920ABFF00733F51 /* Utils */,
+				7CE7FE0A2920ABD400733F51 /* Application */,
+				7CE7FE072920ABAD00733F51 /* Presentation */,
 				7CE7FDE22920AB3700733F51 /* Info.plist */,
+				7CE7FE0B2920ABEC00733F51 /* Helper */,
 			);
 			path = SaltCodeTest;
 			sourceTree = "<group>";
@@ -125,6 +144,81 @@
 				7CE7FDF72920AB3700733F51 /* SaltCodeTestUITestsLaunchTests.swift */,
 			);
 			path = SaltCodeTestUITests;
+			sourceTree = "<group>";
+		};
+		7CE7FE062920ABA700733F51 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7CE7FDD82920AB3500733F51 /* HomeViewController.swift */,
+				7CE7FE042920ABA300733F51 /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7CE7FE072920ABAD00733F51 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				7CE7FE092920ABCA00733F51 /* ViewModel */,
+				7CE7FE082920ABC500733F51 /* Model */,
+				7CE7FE062920ABA700733F51 /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		7CE7FE082920ABC500733F51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7CE7FE112920AC5000733F51 /* LoginResponse.swift */,
+				7CE7FE132920AC5D00733F51 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7CE7FE092920ABCA00733F51 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7CE7FE1E2920BD2D00733F51 /* LoginViewModel.swift */,
+				7CE7FE2529215DAE00733F51 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7CE7FE0A2920ABD400733F51 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7CE7FDD42920AB3500733F51 /* AppDelegate.swift */,
+				7CE7FDDF2920AB3700733F51 /* LaunchScreen.storyboard */,
+				7CE7FDD62920AB3500733F51 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		7CE7FE0B2920ABEC00733F51 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7CE7FDDD2920AB3700733F51 /* Assets.xcassets */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		7CE7FE0C2920ABFF00733F51 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7CE7FE0D2920AC0F00733F51 /* ExtensionFile.swift */,
+				7CE7FE0F2920AC1F00733F51 /* K.swift */,
+				7CE7FE1C2920BC0500733F51 /* Box.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7CE7FE152920AC7900733F51 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				7CE7FE162920AC8900733F51 /* NetworkService.swift */,
+				7CE7FE182920ACD700733F51 /* NetworkManager.swift */,
+				7CE7FE1A2920B26A00733F51 /* ReqresEndpoint.swift */,
+			);
+			path = Vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +327,6 @@
 			files = (
 				7CE7FDE12920AB3700733F51 /* LaunchScreen.storyboard in Resources */,
 				7CE7FDDE2920AB3700733F51 /* Assets.xcassets in Resources */,
-				7CE7FDDC2920AB3500733F51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +351,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CE7FDD92920AB3500733F51 /* ViewController.swift in Sources */,
+				7CE7FE052920ABA300733F51 /* LoginViewController.swift in Sources */,
+				7CE7FE0E2920AC0F00733F51 /* ExtensionFile.swift in Sources */,
+				7CE7FDD92920AB3500733F51 /* HomeViewController.swift in Sources */,
+				7CE7FE102920AC1F00733F51 /* K.swift in Sources */,
+				7CE7FE192920ACD700733F51 /* NetworkManager.swift in Sources */,
+				7CE7FE172920AC8900733F51 /* NetworkService.swift in Sources */,
+				7CE7FE1B2920B26A00733F51 /* ReqresEndpoint.swift in Sources */,
+				7CE7FE142920AC5D00733F51 /* User.swift in Sources */,
+				7CE7FE1F2920BD2D00733F51 /* LoginViewModel.swift in Sources */,
+				7CE7FE2629215DAE00733F51 /* HomeViewModel.swift in Sources */,
 				7CE7FDD52920AB3500733F51 /* AppDelegate.swift in Sources */,
 				7CE7FDD72920AB3500733F51 /* SceneDelegate.swift in Sources */,
+				7CE7FE1D2920BC0500733F51 /* Box.swift in Sources */,
+				7CE7FE122920AC5000733F51 /* LoginResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +401,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7CE7FDDA2920AB3500733F51 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7CE7FDDB2920AB3500733F51 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7CE7FDDF2920AB3700733F51 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,9 +538,9 @@
 				INFOPLIST_FILE = SaltCodeTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,9 +566,9 @@
 				INFOPLIST_FILE = SaltCodeTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
